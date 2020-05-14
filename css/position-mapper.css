@@ -1,0 +1,79 @@
+body {
+  background-color: #efefef;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+#text {
+  text-align: center;
+}
+
+#map {
+  width: 250px;
+  height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  border: solid;
+}
+
+#message {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 576px) {
+  #map {
+    width: 288px;
+    height: 288px;
+    margin-top: 10px;
+  }
+
+  #message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #map {
+    width: 384px;
+    height: 384px;
+    margin-top: 15px;
+  }
+
+  #message {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #map {
+    width: 496px;
+    height: 496px;
+    margin-top: 20px;
+  }
+
+  #message {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #map {
+    width: 600px;
+    height: 600px;
+    margin-top: 25px;
+  }
+
+  #message {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
